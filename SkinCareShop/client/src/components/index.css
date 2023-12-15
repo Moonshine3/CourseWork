@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@700&display=swap');
+
+
+
+body {
+    color: #8A496B;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: x-large;
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-blend-mode: multiply;
+}
+
+.Navigator {
+    font-size: x-large;
+    color: #8A496B
+}
+
+.Card {
+    font-size: x-large;
+    color: #8A496B;
+    background: #C9A0DC;
+    box-shadow: 10px 10px 50px #8A496B;
+    border-radius: 30px;
+}
+
+.Auth {
+    border-radius: 5px;
+    background: #ecd2f6;
+    padding: 8px 16px;
+}
+
+.none {
+    font-size: x-large;
+    color: #8A496B;
+    background: #ecd2f6;
+    border-color: #8A496B;
+
+}
+
+.Skin {
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Mine {
+    font-size: x-large;
+    color: #8A496B;
+    border-width: 1px;
+    border-color: #8A496B;
+}
+
+.Mine:hover {
+    border-color: #8A496B;
+    border-width: 1px;
+    box-shadow: 0 0 10px #8A496B;
+    transition: all 0.3s ease-in-out;
+    background-color: #d9aafa;
+
+}
+
+.Item {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ecd2f6;
+}
+
+.Item:hover {
+    box-shadow: 0 10px 10px #8A496B;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.Skin:hover {
+    box-shadow: 0 0 10px #8A496B;
+    transition: all 0.3s ease-in-out;
+    background-color: #ecd2f6;
+}
+
+.none:hover {
+    border-color: #8A496B;
+    border-width: 5px;
+    box-shadow: 0 0 100px #8A496B;
+    transition: all 0.3s ease-in-out;
+    background-color: #ecd2f6;
+
+}
+
+.Type {
+    box-shadow: 100px 100px 1000px #8A496B;
+}
+
+.But {
+    background: url('./img/bg2.jpg');
+    box-shadow: 10px 10px 30px #8A496B;
+
+}
+
+.Nav {
+    display: flex;
+    box-shadow: 10px 10px 10px #8A496B;
+
+}
+
+.Type1:hover {
+    border-color: #8A496B;
+    box-shadow: 10px 10px 10px #8A496B;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+
+}
+.Type1{
+
+    border-top-right-radius:  100px;
+    border-bottom-right-radius: 100px;
+}
+.Brand:hover {
+    border-color: #8A496B;
+    border-width: 2px;
+    box-shadow: 10px 10px 10px #8A496B;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.Brand {
+    border-radius: 20px;
+
+}
+
+.Navigator:hover {
+    box-shadow: 0 0 20px #8A496B;
+    transition: all 0.3s ease-in-out;
+    background-color: #ecd2f6;
+}
+
+.Foot {
+    background: #ecd2f6;
+    text-align: center;
+    border-radius: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 360px;
+}
+
+.Star {
+    cursor: pointer;
+    display: none;
+}
+
+.Char {
+    background: #ecd2f6;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 850px;
+    text-align: left;
+    box-shadow: 10px 10px 10px #8A496B;
+    padding: 6px 12px;
+}
+
+.Img {
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #8A496B;
+    border-color: #8A496B;
+    border-width: 2px;
+}
+
+.Cont {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #8A496B;
+    font-size: x-large;
+    background: #ecd2f6;
+    border-color: #8A496B;
+    border-width: 2px;
+}
+
+.But1 {
+    border-color: #8A496B;
+    font-size: x-large;
+    color: #8A496B;
+    background: #cf93e0;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.But1:hover {
+    border-color: #8A496B;
+    border-width: 2px;
+    box-shadow: 10px 10px 10px #8A496B;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    background-color: #ecd2f6;
+
+}
+
+.ACard {
+    margin-top: 150px;
+}
+
+::-webkit-scrollbar {
+    width: 15px; /* Scrollbar width */
+    background-color: #C9A0DC; /* Track background color */
+    box-shadow: 10px 10px 10px #8A496B;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8A496B; /* Thumb background color */
+    border-radius: 20px; /* Thumb border radius */
+    border: 3px solid #C9A0DC;  /* creates padding around scroll thumb */
+    box-shadow: 10px 10px 10px #8A496B;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #916380; /* Thumb hover color */
+    box-shadow: 10px 10px 10px #8A496B;
+    transition: all 1s ease-in-out;
+}
+
+.Cont1 {
+    border-radius: 10px;
+    font-size: x-large;
+    background: #ecd2f6;
+    border-color: #8A496B;
+
+}
+
+.Cont2 {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #8A496B;
+    font-size: x-large;
+    background: #ecd2f6;
+    border-color: #8A496B;
+}
+
+.But2 {
+    padding: 8px 16px;
+    text-align: center;
+    font-size: x-large;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-color: #8A496B;
+}
+
+.But2:hover {
+    background-color: #C9A0DC;
+    color: #8A496B;
+}
+
+.NameCos {
+    background-color: #C9A0DC;
+    padding: 6px 12px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #8A496B;
+}
+
+.Rate {
+    background-color: #C9A0DC;
+    padding: 6px 12px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #8A496B;
+}
+
+.pagination .page-link {
+    background-color: #C9A0DC;
+    color: #ef32a8;
+    border-color: #8A496B;
+    padding: 6px 12px;
+    box-shadow: 10px 10px 10px #8A496B;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #C9A0DC;
+    color: #6f489c;
+    padding: 6px 12px;
+    box-shadow: 10px 10px 10px #8A496B;
+    border-radius: 10px;
+
+}
+
+.pagination .page-link {
+    transition: background-color 0.3s ease-in-out;
+    padding: 6px 12px;
+    border-radius: 10px;
+
+
+}
+
+.pagination .page-link:hover,
+.pagination .page-link:focus {
+    background-color: #ecb0d6; /* Change hover/focus color */
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #ecb0d6; /* Change hover background color */
+    color: #8A496B;
+
+}
+
+.dropdown {
+    color: #8A496B;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #C9A0DC;
+    padding: 6px 12px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #8A496B;
+}
+
+.dropdown:hover {
+    background-color: #C9A0DC;
+    color: #8A496B;
+}
+
+.dropdown-menu {
+    background-color: #e072a7; /* Change dropdown content background */
+    color: #8A496B;
+
+}
+
+.dropdown-toggle {
+    color: #8A496B; /* Change text color */
+    background-color: #C9A0DC; /* Change background color */
+    border: 3px solid #8A496B; /* Change border style */
+    padding: 6px 12px; /* Change padding */
+    font-size: x-large;
+    text-align: center;
+    margin-right: 10px;
+    justify-self: center;
+}
+
+.dropdown-toggle:hover {
+    background-color: #8A496B; /* Change background color */
+    border: 3px solid #8A496B; /* Change border style */
+
+}
+
+.my-custom-price-input {
+    /* Your custom styles here */
+    border: 3px solid #8A496B;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-size: x-large;
+    color: #8A496B;
+    background-color: #C9A0DC; /* Change background color */
+    margin-top: 6px;
+}
+
+.my-custom-price-input:hover {
+    background-color: #8A496B; /* Change background color */
+    border: 3px solid #8A496B; /* Change border style */
+    color: #ffffff;
+
+}
+
+.my-custom-price-input:active {
+    background-color: #8A496B; /* Change background color */
+    border: 3px solid #8A496B; /* Change border style */
+    color: #ffffff;
+
+}
+
+.Mod {
+    color: #8A496B; /* Change background color */
+}
+
+.But3 {
+    padding: 8px 16px;
+    text-align: center;
+    font-size: x-large;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-color: #8A496B;
+    background-color: #C9A0DC;
+
+}
+
+.But3:hover {
+    background-color: #6c0909;
+    color: #c087a9;
+}
+
+.Price {
+    background-color: #C9A0DC;
+    padding: 3px 6px;
+    border-radius: 10px;
+    border-color: #8A496B;
+    border-width: 2px;
+}
+
+.Desc {
+    background: #ecd2f6;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 200px;
+    text-align: left;
+    box-shadow: 10px 10px 10px #8A496B;
+    padding: 6px 12px;
+}
